@@ -1,26 +1,26 @@
 class Seance < Formula
   desc "Ephemeral encrypted P2P chat CLI tool"
   homepage "https://github.com/no-way-labs/cauldron"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.4/seance-macos-aarch64.tar.gz"
-      sha256 "30f03a94268ea1f0fa6712b60ed4117727074731368fa3d7ed9cecf4077a79bd"
+      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.5/seance-macos-aarch64.tar.gz"
+      sha256 "8e6030181f49b23805effba0c95ca4693571510326cfeae457a4f2b27d08f1c8"
     else
-      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.4/seance-macos-x86_64.tar.gz"
-      sha256 "952a34d979efb37270b22898cc476a19fd371c5c9c68f1767efe4ed02317f03c"
+      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.5/seance-macos-x86_64.tar.gz"
+      sha256 "7ce49a6b7b498205e41fd5c7c34465c73b6fc1ee8fa6b2cb516d3bf079cb8987"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.4/seance-linux-aarch64.tar.gz"
-      sha256 "c100756be8352b9836db6970cd05dabad690326b53581f4d90c7d30474330e28"
+      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.5/seance-linux-aarch64.tar.gz"
+      sha256 "252bc7adf23d3b620962a025b53407a28d27625e6d82aae24602a84c607921b5"
     else
-      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.4/seance-linux-x86_64.tar.gz"
-      sha256 "bc34a7e8a6d7bdab43eb8ba1b7efbc3c7b1ae773ec034b9e350e14bebc986892"
+      url "https://github.com/no-way-labs/cauldron/releases/download/seance-v0.2.5/seance-linux-x86_64.tar.gz"
+      sha256 "1ed6f09a6cab67b8231fa88dcc9eec493f64b3291c21594ef3f542cf61f304db"
     end
   end
 
