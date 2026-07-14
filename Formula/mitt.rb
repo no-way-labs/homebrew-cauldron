@@ -7,20 +7,20 @@ class Mitt < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/no-way-labs/cauldron/releases/download/v0.5.0/mitt-macos-aarch64.tar.gz"
-      sha256 "f98d5333a3d8acb6e4b7bc82b4b99792d17e471f6f26831975d9bc2f91d2db01"
+      sha256 "a50809c854d8fc64202bf5f91b0e3fe4d20c7f9d7360d776fa9d026e837d7550"
     else
       url "https://github.com/no-way-labs/cauldron/releases/download/v0.5.0/mitt-macos-x86_64.tar.gz"
-      sha256 "093074978f66df0b9e4c71818aab6b70413f723b19a5fef60e2288a64ae07c84"
+      sha256 "a0692952f7d124a408d9bf290b8ad123a7af3dd88def93e30759db9f3f33831f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/no-way-labs/cauldron/releases/download/v0.5.0/mitt-linux-aarch64.tar.gz"
-      sha256 "9c0b313efd1a8dead69917b35b77669fa1556254428ac4644c85c3cffa07f378"
+      sha256 "808a4ef192d77122e94ac54375804e6c3a250830ffb38aaac28af1cfce1dd940"
     else
       url "https://github.com/no-way-labs/cauldron/releases/download/v0.5.0/mitt-linux-x86_64.tar.gz"
-      sha256 "d7fcdb2272fa0130187da6064839313e56e318d85a9d493345df7f8d1a545b2b"
+      sha256 "726d10ff0017474f8a3fceca43fedaa0c211ddfc9a06a72a9b0efd88629f1326"
     end
   end
 
