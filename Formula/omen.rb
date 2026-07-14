@@ -1,26 +1,26 @@
 class Omen < Formula
   desc "Encrypted, verifiable commit-reveal voting CLI"
   homepage "https://github.com/no-way-labs/cauldron"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.1.0/omen-macos-aarch64.tar.gz"
-      sha256 "42d310f8893983980c40b7be0348d550c3afe0445d99c69d34cae625de709b93"
+      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.2.0/omen-macos-aarch64.tar.gz"
+      sha256 "0ca277969756c0d4e627e29c1565925af99f2df5891926df0200f39a61d02f2f"
     else
-      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.1.0/omen-macos-x86_64.tar.gz"
-      sha256 "85464cfcd85fff1f13dc3e004e6f14d31a36032a3eb602c6d3e625727237dc0a"
+      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.2.0/omen-macos-x86_64.tar.gz"
+      sha256 "065e200133cb52b0ce89e4c3de8f9d6d55b1289d51b0ce9430c3b9a2b53a2956"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.1.0/omen-linux-aarch64.tar.gz"
-      sha256 "e24dfb380ea5d5d1aabebed4d1169f987a6242f0e291d80319be3b014ee5d3e6"
+      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.2.0/omen-linux-aarch64.tar.gz"
+      sha256 "e97b535c829415cb5db4233af8563ea11b66e4a23551415f2200d37229c9c5c7"
     else
-      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.1.0/omen-linux-x86_64.tar.gz"
-      sha256 "79d42fa7b6550b7b803b8a9b8fe14eaf0f28535c926faa6625669ec745f56e6b"
+      url "https://github.com/no-way-labs/cauldron/releases/download/omen-v0.2.0/omen-linux-x86_64.tar.gz"
+      sha256 "1c149b8cd14349c3c4519710a2b226ca687a029c886e8350dc03ca46807773e0"
     end
   end
 
