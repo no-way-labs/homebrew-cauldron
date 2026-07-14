@@ -1,5 +1,5 @@
 class Omen < Formula
-  desc "Anonymous encrypted voting CLI"
+  desc "Encrypted, verifiable commit-reveal voting CLI"
   homepage "https://github.com/no-way-labs/cauldron"
   version "0.1.0"
   license "MIT"
